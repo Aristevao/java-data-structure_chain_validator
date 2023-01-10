@@ -7,7 +7,7 @@ The objective of this program written in Java is to solve the **Chain Validator*
 
 The project has an `Application` class, which can be used to execute code. The class already contains three configured examples.
 
-**Expected terminal output:**
+**Expected console output:**
 
     #1 Node - Result: true  | Original list:  36 6 24 4 47 7 2 3 27
     #2 Node - Result: true  | Original list:  p aba a b perso o r e s
@@ -29,10 +29,14 @@ The class/interface Node is yours to implement. Class should represent the two t
 
 You can add additional classes as you wish. 
 
-Examples:
+**Examples:**
+    
 Valid chain: 36, 6, 24, 4, 47, 7, 2, 3, 27   
+    
 Valid chain: “p”, “aba”, ”a”, ”b”, “perso”, “o”, “r”, “e”, “s”
+    
 Not valid chain: 35, 5, 65, 6, 24, 4, (number 2 is missing). 
+    
 You don’t have to take care of: “a”, 5, “asd” (or any mixed values list).
 __________________
 Source: problem got from Alura cursos.
